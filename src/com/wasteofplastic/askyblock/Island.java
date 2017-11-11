@@ -90,7 +90,7 @@ public class Island implements Cloneable {
         CROP_TRAMPLE, DOOR, ENCHANTING, ENDERPEARL, FURNACE, 
         GATE, HORSE_INVENTORY, HORSE_RIDING, HURT_MOBS, LEASH, LEVER_BUTTON, MUSIC, 
         PLACE_BLOCKS, PORTAL, PRESSURE_PLATE, PVP, NETHER_PVP, REDSTONE, SHEARING,
-        VILLAGER_TRADING, CHORUS_FRUIT, ENTER_EXIT_MESSAGES, MONSTER_SPAWN;
+        VILLAGER_TRADING, CHORUS_FRUIT, ENTER_EXIT_MESSAGES, MONSTER_SPAWN, FLY;
     }
     // Island protection settings
     private static List<String> islandSettingsKey = new ArrayList<String>();
@@ -292,7 +292,11 @@ public class Island implements Cloneable {
         /**
          * Visitors can pick up items
          */
-        VISITOR_ITEM_PICKUP
+        VISITOR_ITEM_PICKUP,
+		/**
+         * Fly
+         */
+        FLY
     }
 
 

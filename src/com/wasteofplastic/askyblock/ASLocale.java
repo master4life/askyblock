@@ -833,6 +833,7 @@ public class ASLocale {
         igs.put(SettingsFlag.VILLAGER_TRADING, ChatColor.translateAlternateColorCodes('&', locale.getString("islandguardsettings.villagertrading", "Visitor villager trading")));
         igs.put(SettingsFlag.VISITOR_ITEM_DROP, ChatColor.translateAlternateColorCodes('&', locale.getString("islandguardsettings.visitordrop", "Visitor item drop")));
         igs.put(SettingsFlag.VISITOR_ITEM_PICKUP, ChatColor.translateAlternateColorCodes('&', locale.getString("islandguardsettings.visitorpickup", "Visitor item pick-up")));
+        igs.put(SettingsFlag.FLY, ChatColor.translateAlternateColorCodes('&', "User can fly"));
 
         igsChestDamage = ChatColor.translateAlternateColorCodes('&', locale.getString("islandguardsettings.chestdamage", "Chest damage by TNT"));
         igsCreeperDamage = ChatColor.translateAlternateColorCodes('&', locale.getString("islandguardsettings.creeperdamage", "Creeper damage"));
@@ -967,7 +968,7 @@ public class ASLocale {
                 locale.getString("challenges.errorIslandLevel", "Your island must be level [level] to complete this challenge!"));
         challengeserrorRewardProblem = ChatColor.translateAlternateColorCodes('&',
                 locale.getString("challenges.errorRewardProblem", "There was a problem giving your reward. Ask Admin to check log!"));
-        challengesguiTitle = ChatColor.translateAlternateColorCodes('&', locale.getString("challenges.guititle", "Challenges"));
+        challengesguiTitle = ChatColor.translateAlternateColorCodes('&', "§bSky§9Block §f§l> Challenges");
         if (challengesguiTitle.length() > 30) {
             challengesguiTitle = challengesguiTitle.substring(0,29);
         }

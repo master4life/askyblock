@@ -66,9 +66,6 @@ island:
    #by repetitively being invited to a team island.
    invitewait: 60
 
-   #Invite timeout in seconds. Invites will lapse if not accepted within this time
-   invitetimeout: 60
-   
    # Default max team size
    # Use this permission to set for specific user groups: askyblock.team.maxsize.<number> 
    # Permission size cannot be less than the default. 
@@ -778,6 +775,8 @@ protection:
      VISITOR_ITEM_DROP: true
      # Allow item pickup
      VISITOR_ITEM_PICKUP: true
+     # Allow Fly
+     FLY: false
    # -- Island Settings --
    # Settings for islands. Some are for visitors, some for the island itself.
    # If setting is not listed, it will not show in GUI and the world default will be used.
@@ -822,6 +821,8 @@ protection:
      REDSTONE: false
      # Allow visitors to shear sheep
      SHEARING: false
+     # Fly
+     FLY: false
 
 # This section contains the biomes that can be bought or used
 biomesettings:
